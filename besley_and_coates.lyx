@@ -1,0 +1,925 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Workfare versus Welfare: Incentive Arguments for Work Requirements in Poverty-Al
+leviation Programs
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Columbia University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Timothy Besley and Stephen Coate, 1992
+\end_layout
+
+\begin_layout Author
+Parijat
+\begin_inset space ~
+\end_inset
+
+Lal
+\end_layout
+
+\begin_layout Date
+October 11, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Oct 11, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+A decent provision for the poor is a true test of civilization.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+- Samuel Johnson
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Question: what form should poverty relief take?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Specifically, should recipients of relief be required to work in exchange
+ for benefits?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Precedent
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Historical
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+England: Poor Law (1834) granted relief via residence in workhouse
+\end_layout
+
+\begin_layout Itemize
+France: relief granted in 
+\begin_inset Quotes eld
+\end_inset
+
+charity workshops
+\begin_inset Quotes erd
+\end_inset
+
+ during ancien régime
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Contemporary (1992) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+US: states requiring welfare claimants enroll in training or work program
+\end_layout
+
+\begin_layout Itemize
+India: public-works projects as a tool for providing poor relief
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Poverty alleviation
+\series default
+ or welfare maximization?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conceptual Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Explore incentive case for workfare by analyzing two distinct arguments
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Screening
+\emph default
+: work requirements serve as means of targeting transfers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Developing countries typically lack capacity to evaluate eligibility for
+ relief on case-by-case basis – self-targeting systems may be better
+\end_layout
+
+\begin_layout Itemize
+Developed countries may not always be able to determine deliberate reduction
+ in hours worked
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Deterrent
+\emph default
+: workfare encourages poverty-reducing investments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Welfare has reduced incentives to avoid poverty
+\end_layout
+
+\begin_layout Itemize
+Poor relief must be made relatively less attractive
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Approach: develop model to illustrate logic and assumptions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Attempt to comment on optimal design of workface programs
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Setup
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government: everyone gets at least 
+\begin_inset Formula $z$
+\end_inset
+
+, at minimum fiscal cost
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\gamma n$
+\end_inset
+
+ people with income-generating ability and wage rate 
+\begin_inset Formula $a_{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Identical quasi-linear preferences over income 
+\begin_inset Formula $y$
+\end_inset
+
+ and work 
+\begin_inset Formula $l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Poverty-alleviation program (PAP) 
+\begin_inset Formula $\left\{ b_{i},c_{i}\right\} _{i=L,H}$
+\end_inset
+
+, where 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+ is cash transfer for 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{i}$
+\end_inset
+
+ is cost of public-sector work requirement
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For individual 
+\begin_inset Formula $i$
+\end_inset
+
+ who accepts a PAP
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Private-sector labor supply: 
+\begin_inset Formula $l\left(b,c,a_{i}\right)=\begin{cases}
+\hat{l}\left(a_{i}\right)-c & \text{if}\;c\leq\hat{l}\left(a_{i}\right)\\
+0 & \text{otherwise}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Prviate-sector earnings: 
+\begin_inset Formula $y\left(c,a_{i}\right)=\begin{cases}
+a_{i}\left(\hat{l}\left(a_{i}\right)-c\right) & \text{if}\;c\leq\hat{l}\left(a_{i}\right)\\
+0 & \text{otherwise}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Utility level: relevant for 
+\series bold
+voluntary participation
+\series default
+
+\begin_inset Formula 
+\[
+u\left(b,c,a_{i}\right)\equiv b+y\left(c,a_{i}\right)-h\left(l\left(c,a_{i}\right)+c\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model's Implications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition 1 (Benchmark PAP): if abilities are observable and beyond individual
+s' control, cost-minimizing PAP is a welfare program
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Offer 
+\begin_inset Formula $a_{L}$
+\end_inset
+
+ transfer just high enough to get them out of poverty, 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+, and offer 
+\begin_inset Formula $a_{H}$
+\end_inset
+
+ no benefits
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition 2 (
+\emph on
+screening
+\emph default
+ in developing context): if both abilities and incomes are unobservable,
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Welfare: no work requirements and offer both groups 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Workfare: offer 
+\begin_inset Formula $a_{H}^{*}$
+\end_inset
+
+ (self-categorized) no benefits and 
+\begin_inset Formula $a_{L}^{*}$
+\end_inset
+
+ tied transfer of 
+\begin_inset Formula $z-y\left(c_{L}^{s},a_{L}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Policymaker must respect 
+\series bold
+incentive compatibility
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c_{L}^{s}$
+\end_inset
+
+ is unique, positive separating work requirement
+\end_layout
+
+\begin_layout Itemize
+Workfare more likely to be optimal if truly poor small fraction of target
+ population and earnings potential small relative to nonpoor
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model's Implications (continued)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition 3 (
+\emph on
+screening
+\emph default
+ in developed context): if abilities unobservable, incomes observable, and
+ benchmark no-go,
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Welfare: no work requirements, offer 
+\begin_inset Formula $a_{H}^{*}$
+\end_inset
+
+ transfer of 
+\begin_inset Formula $z-h\left(y\left(0,a_{L}\right)/a_{H}\right)-u\left(0,0,a_{H}\right)$
+\end_inset
+
+, and offer 
+\begin_inset Formula $a_{L}^{*}$
+\end_inset
+
+ transfer of 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Workfare: offer 
+\begin_inset Formula $a_{H}^{*}$
+\end_inset
+
+ no benefits and offer 
+\begin_inset Formula $a_{L}^{*}$
+\end_inset
+
+ tied transfer of 
+\begin_inset Formula $z-y\left(\hat{c}_{L}^{s},a_{L}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition 4 (
+\emph on
+deterrent
+\emph default
+): if abilities observable but dependent on choices made earlier, cost-minimizin
+g PAP either imposes no work requirements and offers 
+\begin_inset Formula $a_{L}$
+\end_inset
+
+ transfer of 
+\begin_inset Formula $z-y\left(0,a_{L}\right)$
+\end_inset
+
+, or imposes the maximal work requirement 
+\begin_inset Formula $c_{L}^{m}$
+\end_inset
+
+ on 
+\begin_inset Formula $a_{L}$
+\end_inset
+
+ and offers them transfer of 
+\begin_inset Formula $z$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Costs increasing in 
+\begin_inset Formula $c_{L}$
+\end_inset
+
+ below 
+\begin_inset Formula $\hat{l}\left(a_{L}\right)$
+\end_inset
+
+ and decreasing thereafter
+\end_layout
+
+\begin_layout Itemize
+Workfare preferable when fraction of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{L}$
+\end_inset
+
+ are low, as this implies smaller loss in private-sector earnings
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename besley_fig1.png
+	lyxscale 27
+	scale 27
+
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Graphics
+	filename besley_fig2.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename besley_fig4.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Welfarist definition of poverty: 
+\emph on
+screening
+\emph default
+ robust, 
+\emph on
+deterrent
+\emph default
+ not
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Potential concerns
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Impact of effort?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assumption that 
+\begin_inset Formula $\pi\left(\cdot\right)$
+\end_inset
+
+ is increasing and strictly concave
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Overemphasis on potential masquerading?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Potential extensions: evaluating UBI option, modeling capabilities approach
+ (Sen, Nussbaum) 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\end_body
+\end_document

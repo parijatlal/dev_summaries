@@ -1,0 +1,683 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Double for Nothing? Experimental Evidence on an Unconditional Teacher Salary
+ Increase in Indonesia
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Columbia University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Joppe de Ree, Karthik Muralidharan, Menno Pradhan, and Halsey Rogers (2018)
+\end_layout
+
+\begin_layout Author
+Parijat
+\begin_inset space ~
+\end_inset
+
+Lal
+\end_layout
+
+\begin_layout Date
+November 15, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Nov 15, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Level/structure of public-sector compensation key in attracting, retaining,
+ and motivating quality employees and delivering services
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Represents 27% of government spending in low- and middle-income countries
+ on average, 42.8% and 65.6% in health and education
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evaluating cost-effectiveness of government salary increases
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+May improve quality of new employees hired over time
+\end_layout
+
+\begin_layout Itemize
+But, large fiscal costs of increasing salary spending on existing employees
+ crowd out other public expenditure
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Main question: How does a large unconditional increase in salary affect
+ the performance of incumbent employees in the public sector?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Previous work limited to performance-linked bonus programs or lack of adequate
+ exogenous variation in pay
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Context, Policy Reform, and Rationale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Promoting school education historically a high priority for Indonesia
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2000-02: new constitution committed 20% of budget to education
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Teacher Law (2005): teachers passing eligibility criteria and certification
+ process to receive allowance equiv.
+ to 100% of base pay
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Initially included high-standard external assessment of knowledge and practice,
+ but watered down after negotiations
+\end_layout
+
+\begin_layout Itemize
+Reform moved pay from 50th to 90th percentile of college-graduate distribution
+ (prereform benefits also already generous)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rationale
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ideas: people thinking salary increase 
+\begin_inset Formula $\implies$
+\end_inset
+
+ better education
+\end_layout
+
+\begin_layout Itemize
+Interests: teacher unions advocating effectively
+\end_layout
+
+\begin_layout Itemize
+Institutions: spending floor under new constitutions
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Design: 
+\series default
+treatment allows otherwise eligible teachers in treatment schools to enter
+ certification process early vs.
+ wait at control schools
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only 
+\begin_inset Formula $\sim$
+\end_inset
+
+10% of teachers allowed to undergo certification process yearly
+\end_layout
+
+\begin_layout Itemize
+3 waves of data collection interviewing teachers and students
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Sample: 
+\series default
+20 districts, each with 6 treatment and 12 control schools
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Randomly sampled from 360 schools covering 85% of Indonesian districts and
+ over 90% of population, stratified by region 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Validity: 
+\series default
+no public announcement of additional quota at treatment
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Experiment did not displace education spending in the districts from control
+ to treatment, or displace teachers from certification
+\end_layout
+
+\begin_layout Itemize
+Within treated schools, only ineligible teachers not treated
+\end_layout
+
+\begin_layout Itemize
+Evidence for balance in student and teacher characteristics
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fraction of self-reported certified target teachers in treatment is 43 (24)
+ pp higher by the end of Y2 (Y3)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ITT effects include teachers not eligible at start of experiment
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Teacher-Level Outcomes:
+\series default
+ treatment school teachers receive 112% (72%) more certification pay by
+ the end of Y2 (Y3)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More satisfied with total income, less likely to report facing financial
+ stress or holding 2nd job, and working less hours at 2nd job
+\end_layout
+
+\begin_layout Itemize
+No difference on teacher test scores, likelihood of pursuing further education,
+ or self-reported absence rates
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Student Outcomes: 
+\series default
+no impact on scores of being in a treated school
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Adequate power to detect effects as low as 0.05
+\begin_inset Formula $\sigma$
+\end_inset
+
+ at 5% level
+\end_layout
+
+\begin_layout Itemize
+No significant treatment effects at any part of score distribution and by
+ type of teacher relative to control (ruling out offsetting)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cost Effectiveness and Policy Implications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+De Ree (2016) estimates 1
+\begin_inset Formula $\sigma$
+\end_inset
+
+ increase in teacher test score predicts a 0.175
+\begin_inset Formula $\sigma$
+\end_inset
+
+ a year increase in student value-added
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Extensive margin effect after replacing all current teachers is 0.175
+\begin_inset Formula $\sigma$
+\end_inset
+
+ yearly increase in test scores at cost of US$ 138/student/year
+\end_layout
+
+\begin_layout Itemize
+Compare to 0.15
+\begin_inset Formula $\sigma$
+\end_inset
+
+ gain at US$ 4/student/year through performance-based bonus pay program
+ in India
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Other concerns over across-the-board salary increases
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Short- and medium-term benefits depend largely on intensive margin
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+7% discount rate 
+\begin_inset Formula $\implies$
+\end_inset
+
+ intensive margin effects have 3x weight for PDV
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Talent displaced from other sectors and made less productive
+\end_layout
+
+\begin_layout Enumerate
+Linking pay to performance likely more effective on extensive margin
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Effects of unconditional salary increase especially important in public-sector
+ context without market test of cost-effectiveness
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Especially worrying given wages of public-sector workers typically not correlate
+d with productivity in developing countries
+\end_layout
+
+\begin_layout Itemize
+Increase in salaries was a transfer w/o improvement in productivity 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Comments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Alternative measures of effort, i.e.
+ verified absence rates?
+\end_layout
+
+\begin_layout Itemize
+Hard to fully interpret comparison with performance-based pay program in
+ India without comparison of mean baseline achievement
+\end_layout
+
+\begin_layout Itemize
+Lockwood et al.
+ (forthcoming) argue traditionally high-paying professions have negative
+ externalities, whereas low-paying ones have positive externalities
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document

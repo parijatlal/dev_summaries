@@ -1,0 +1,615 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Employment Structure and the Rise of the Modern Tax System (2019)
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Columbia University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Anders Jensen
+\end_layout
+
+\begin_layout Author
+Parijat
+\begin_inset space ~
+\end_inset
+
+Lal
+\end_layout
+
+\begin_layout Date
+September 27, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sep 27, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What explains long run growth in income tax capacity as economies develop?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Income tax base in US is 45 times larger than that in India
+\end_layout
+
+\begin_layout Itemize
+Large variation in base contrasts with lack of variation in rates
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Potential answer: transitions in employment structure
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Existence of information trails boosts tax compliance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Kleven et al.
+ (2011, 2016), Best (2014, 2015), Pomeranz (2015)...
+\end_layout
+
+\begin_layout Itemize
+Division in work-types based on generation of relevant information trails:
+ self employment vs.
+ employee-jobs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Employee-share as proxy for enforceable income tax base
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Contribution to literature on supply side determinants of government growth
+ over development
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Terminology
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Employee vs.
+ self-employed: former hold jobs that generate derivative information trails
+ useful for income tax enforcement
+\end_layout
+
+\begin_layout Itemize
+Tax base: share of economically active populative whose gross income lies
+ above income tax exemption threshold
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Descriptive evidence
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Construction of internationally comparable micro database on 100 countries
+ from nationally representative household surveys
+\end_layout
+
+\begin_layout Itemize
+Used to characterize changes to employment and tax structure along development
+ path
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Causal identification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exploit variation in effective implementation date of IDB program before
+ 1980 in the US, which serves as employee-share level shifter
+\end_layout
+
+\begin_layout Itemize
+Use state government finance publications and BEA series to estimate employment
+ structure's impact on tax structure
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Within country employee share increases over the income distribution, and
+ at all levels of income as a country develops
+\end_layout
+
+\begin_layout Enumerate
+Over development, the tax exemption threshold moves down the income distribution
+ in co-movement with increases in employee share
+\end_layout
+
+\begin_layout Enumerate
+Location of tax exemption threshold systematically maximizes the employee-share
+ on the income tax base
+\end_layout
+
+\begin_layout Enumerate
+Changes in income tax base account for variation in income tax collection
+ across development
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stylized Facts: Illustration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename jensen_fig1.png
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+IDB Program: Identification Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Center program impact around court upholding event and estimate
+\begin_inset Formula 
+\[
+y_{st}=\beta+\alpha\mathbf{1}\left(\text{Vote-in}\right)_{st}+\theta\mathbf{1}\left(\text{Upheld}\right)_{st}+\lambda\mathbf{X}_{st}+\mu_{s}+\gamma_{t}+\varepsilon_{st}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $y_{st}$
+\end_inset
+
+ represents the outcomes of interest (IDB issuance, employee-share, and
+ tax reform) and 
+\begin_inset Formula $\theta$
+\end_inset
+
+ captures the impact of IDB being upheld by the state court
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Identifying assumption: timing of court decision is uncorrelated with outcome
+ variable, i.e.
+ groups with differing length of lag between vote-in and upholding are on
+ parallel trends before the upholding
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Testing channel in which employment structure impacts decision to expand
+ base by changing fiscal enforcement cost
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+EoI acts between states and IRS decrease state's cost of enforcement
+\end_layout
+
+\begin_layout Itemize
+Add 
+\begin_inset Formula $\sigma\mathbf{1}\left(\text{Upheld}\right)_{st}\times\mathbf{1}\left(\text{EoI}\right)_{st}$
+\end_inset
+
+ term above and estimate impact on employee-share and expansion of tax base
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+IDB Program: Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename jensen_fig7a.png
+	lyxscale 37
+	scale 37
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename jensen_fig7b.png
+	lyxscale 37
+	scale 37
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename jensen_tab2.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model and Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Characterization for revenue maximizing location of threshold:
+\begin_inset Formula 
+\[
+\frac{K^{Rev}}{\bar{z}}=\frac{1}{\left[1+\left[\frac{M}{B}\right]\cdot\left[\varepsilon_{\bar{z},K}\varphi_{K}\right]^{-1}\right]}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $M$
+\end_inset
+
+ is increase in revenue from inframarginal agents, 
+\begin_inset Formula $B$
+\end_inset
+
+ is loss from behavioral responses of marginal agents, and 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ denotes elasticity of marginal buncher w.r.t.
+ exemption threshold
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Paper provides evidence and theory to show transitions into employee jobs
+ over development explains rise in tax capacity
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Heightens significance of building on Alstadsæter et al.
+ (2018) to study curbing of evasion and avoidance by wealthy in developing
+ countries
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document

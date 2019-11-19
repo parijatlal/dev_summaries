@@ -1,0 +1,633 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Tax Evasion and Tax Avoidance (2018)
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Columbia University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Alstadsæter, Annette, Niels Johannesen, and Gabriel Zucman
+\end_layout
+
+\begin_layout Author
+Parijat
+\begin_inset space ~
+\end_inset
+
+Lal
+\end_layout
+
+\begin_layout Date
+September 27, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sep 27, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Governments in rich countries have recently taken ambitious steps to crack
+ down on tax evasion by wealthy
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Widespread view that tax avoidance makes it hard to increase taxes on rich
+ and maintain progressive tax system
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Minnesota field experiment: high-income taxpayers informed that their returns
+ would be 
+\begin_inset Quotes eld
+\end_inset
+
+closely examined
+\begin_inset Quotes erd
+\end_inset
+
+ paid less tax relative to control group (Slemrod et al.
+ 2001)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Main question: how substitutable are tax evasion and tax avoidance at the
+ top of the wealth distribution?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why enhance tax enforcement at the top?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Liable for large fraction of total taxes
+\end_layout
+
+\begin_layout Itemize
+Share of income and wealth has increased (Alvaredo et al.
+ 2018)
+\end_layout
+
+\begin_layout Itemize
+Particularly high evasion rates (Alstadsæter et al.
+ 2018)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Background
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Norwegian policy initiatives to reduce offshore tax evasion in 2008
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Around 1,500 taxpayers (around 11% of the top 0.01%) used amnesty program
+ to disclose previously unreported foreign assets and income over 2008-2016
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Advantages of Norwegian context
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exogenous variation in decision to evade taxes
+\end_layout
+
+\begin_layout Itemize
+High-quality, population-wide data on wealth due to state wealth tax
+\end_layout
+
+\begin_layout Itemize
+Administrative data allows for clean measures of tax evasion and avoidance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evasion: disclosures, bank transfers
+\end_layout
+
+\begin_layout Itemize
+Avoidance: holding unlisted shares, using holding corporations, emigrating,
+ qualifying for wealth tax rebate*, paying out retained earnings to avoid
+ dividend tax*
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Empirical Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Approach: event-study framework to estimate how reported wealth, income,
+ and tax liabilities, and tax avoidance, evolve around the time hidden assets
+ are disclosed
+\begin_inset Formula 
+\[
+\log\left(Y_{it}\right)=\alpha_{i}+\gamma_{t}+X'_{it}\psi+\sum\beta_{k}D_{it}^{k}+u_{it}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ - individual fixed effects, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ - calendar year dummies, 
+\begin_inset Formula $D^{k}$
+\end_inset
+
+ - dummies for year 
+\begin_inset Formula $k$
+\end_inset
+
+ relative to year of the event
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Include set of non-parametric controls for wealth, income, and age to ensure
+ comparability of disclosers and non-disclosers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Divide sample of disclosers into ten equally sized groups based on net wealth
+ and assign non-disclosers to these buckets
+\end_layout
+
+\begin_layout Itemize
+Compare disclosers to non-disclosers with similar wealth, income, and age
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Graphical Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename altstadsaeter_fig2.png
+	lyxscale 25
+	scale 30
+
+\end_inset
+
+
+\begin_inset Formula $\;$
+\end_inset
+
+
+\begin_inset Graphics
+	filename altstadsaeter_fig3.png
+	lyxscale 25
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Evasion
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sharp increases for disclosers relative to non-disclosers in reported wealth
+ (65%), taxable income (20%), tax liabilities (30%)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rise sustained throughout event window
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Bank transfers imply that more than 60% of disclosed assets are repatriated
+ in four years following amnesty participation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No evidence of jump in outgoing transfers for disclosers
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax avoidance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No statistically significant change in emigration and investments (housing,
+ unlisted shares) of disclosers relative to non-disclosers
+\end_layout
+
+\begin_layout Itemize
+Statistically significant, but small increase in incorporations of holding
+ companies by disclosers
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scope for substitution
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Richer people avoid more but controlling for wealth, avoidance is similar
+ across amnesty participants and non-participants
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Explaining lack of avoidance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Wealthy have access to well-defined tax avoidance opportunities, there these
+ are not costless
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fighting tax evasion can be effective way to collect more tax revenue from
+ wealthy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increase progressivity of tax system and reduce inequality
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+External validity for developing countries?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Potential barriers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+High enforcement costs, low avoidance costs
+\end_layout
+
+\begin_layout Itemize
+Lack of leverage with key tax havens
+\end_layout
+
+\begin_layout Itemize
+Low credibility of amnesty and/or enforcement policies
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_body
+\end_document

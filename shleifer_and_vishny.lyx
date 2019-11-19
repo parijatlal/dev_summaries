@@ -1,0 +1,733 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corruption
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Columbia University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Andrei Shleifer and Robert W.
+ Vishny (1993)
+\end_layout
+
+\begin_layout Author
+Parijat
+\begin_inset space ~
+\end_inset
+
+Lal
+\end_layout
+
+\begin_layout Date
+November 8, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Nov 8, 2019
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corruption is pervasive around the world and can take various forms
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal-agent model of corruption
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Public officials have effective property rights over government goods
+\end_layout
+
+\begin_layout Itemize
+Top level of government wants to motivate officials to be honest
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consequences of corruption for resource allocation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are implications of how the corruption network is organized on economic
+ activity?
+\end_layout
+
+\begin_layout Itemize
+Why does even well-organized corruption appear to be more distortionary
+ than taxation?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Basic Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assumptions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Homogeneous government-produced good with demand curve 
+\begin_inset Formula $D\left(p\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Good sold by official who can restrict supply with impunity
+\end_layout
+
+\begin_layout Itemize
+Objective for monopolist to maximize the value of bribes collected
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marginal cost to the official of providing good
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Without theft
+\emph default
+: keep bribe but turn over amount 
+\begin_inset Formula $p\implies MC=p$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Raises buyer's cost and gives her incentive to expose official
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+With theft
+\emph default
+: turn over nothing and hide sale 
+\begin_inset Formula $\implies MC=0$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aligns interests of buyers and sellers, making it more persistent
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename shleifer_and_vishny_fig1a.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename shleifer_and_vishny_fig1b.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Industrial Organization of Corruption (I/II)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Case 1: 
+\series default
+joint monopolist agency sets price 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+, quantities sold are 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Per unit bribes are 
+\begin_inset Formula $p_{i}-MC_{i}$
+\end_inset
+
+, and in the 2 good case, 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ is set s.t.
+\begin_inset Formula 
+\[
+MR_{1}+MR_{2}\frac{dx_{2}}{dx_{1}}=MC_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Goods are complements 
+\begin_inset Formula $\implies\frac{dx_{2}}{dx_{1}}>0\implies MR_{1}<MC_{1}$
+\end_inset
+
+ at optimum
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Case 2: 
+\series default
+goods allocated by independent monopolist agencies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Per unit bribe higher, output and aggregate bribes lower than above
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Case 3: 
+\series default
+each good can be supplied by at least two agencies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bertrand competition in bribes foces bribe down to zero
+\end_layout
+
+\begin_layout Itemize
+Two competitors not necessary if market subject to potential competition
+ or entry
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Industrial Organization of Corruption (II/II)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What determines the industrial organization of corruption markets?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Joint bribe maximization likelier when bribe increases easily observed
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Government has effective policing machine to monitor bureaucrats
+\end_layout
+
+\begin_layout Enumerate
+Ruling elite is small
+\end_layout
+
+\begin_layout Enumerate
+Society is homogeneous and closely knit
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ability of leadership to exclude deviators from rents promotes collusion
+\end_layout
+
+\begin_layout Itemize
+Political modernization usually accompanied by increases in corruption
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+However, political competition also reduces corruption
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implications of industrial organization perspective
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Without theft
+\emph default
+: reduce corruption through competition b/w bureacrats
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+With theft
+\emph default
+: competitive pressure may increase theft from government
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Intense monitoring essential
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Corruption and Secrecy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Claim: 
+\series default
+taxes are the markup on price that goes into the treasury and bribes are
+ markup that goes into pocket of monopolist
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If treasury and pocket are the same, taxes and bribes are the same
+\end_layout
+
+\begin_layout Itemize
+With multiple monopolists, bribes also similar to taxes, with independent
+ agencies setting rates to maximize revenue 
+\end_layout
+
+\begin_layout Itemize
+Competing monopolists correspond to competing jurisdictions
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If bribes and taxes are similar, why are the former more distortionary?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corruption is illegal and must be kept secret 
+\begin_inset Formula $\implies$
+\end_inset
+
+ efforts to avoid detection and punishment
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E.g.
+ corruption opportunities on buying unique, expensive machine greater than
+ on buying cheaper, generic products
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Imperative of secrecy produces hostility to change and innovation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Secrecy requires keeping down number of people involved
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Two broad reasons corruption may be costly to development
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Weakness of central government allows officials to impose independent bribes
+ on private agents seeking complementary permits 
+\end_layout
+
+\begin_layout Enumerate
+Costly distortions entailed by necessary secrecy of corruption
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Framework can be used to explain and evaluate important phenomena
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different organization of corruption networks
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Government goods can be obtained without bribe (United States)
+\end_layout
+
+\begin_layout Itemize
+Person paying bribe is assured of property rights over good (Korea, Communist
+ Russia)
+\end_layout
+
+\begin_layout Itemize
+Numerous bureaucrats need to be bribed and no guarantee of property rights
+ (African countries, post-Communist Russia)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Diversion of investments from health and education into defense and infrastructu
+re
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document
